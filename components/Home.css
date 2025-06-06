@@ -1,0 +1,58 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #f9f9f9, #e8ecf1);
+  padding: 60px 20px 40px;
+}
+
+.home-content {
+  text-align: center;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #a3acc0;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #020c07;
+}
+
+.secondary-btn {
+  background-color: #278b09;
+  color: white;
+}
+
+.secondary-btn:hover {
+  background-color: #24b130;
+}
