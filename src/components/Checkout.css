@@ -1,0 +1,220 @@
+/* General Layout */
+.checkout-container {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+/* Top Section */
+.checkout-top-section {
+  background-color: #f5f5dc; /* Beige */
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout-left {
+  flex: 1;
+}
+
+.checkout-right {
+  flex: 1;
+  text-align: right;
+}
+
+.checkout-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.checkout-instructor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.instructor-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.instructor-name {
+  font-weight: bold;
+}
+
+.checkout-category {
+  margin-bottom: 0.5rem;
+}
+
+.checkout-category .bold {
+  font-weight: bold;
+}
+
+.checkout-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.checkout-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Payment Section */
+.checkout-payment-flex-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.checkout-payment-left {
+  flex: 2;
+}
+
+.checkout-payment-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.checkout-ewallet-box {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.checkout-ewallet-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.checkout-ewallet-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.checkout-ewallet-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: white;
+}
+
+.checkout-ewallet-option input {
+  margin-right: 0.5rem;
+}
+
+.checkout-ewallet-option img {
+  width: 40px;
+  height: auto;
+}
+
+.checkout-ewallet-option.selected {
+  background-color: #f2f9ff;
+  box-shadow: 0 0 0 2px #339af0;
+  border-color: #339af0;
+}
+
+.checkout-ewallet-option:hover {
+  background-color: #f7fbff;
+}
+
+/* Card Logos */
+.checkout-card-logos img {
+  width: 40px;
+  margin-right: 0.5rem;
+}
+
+/* Summary Section */
+.checkout-summary-box {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  height: fit-content;
+}
+
+.checkout-summary-section {
+  margin-bottom: 2rem;
+}
+
+.summary-title {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.summary-total {
+  font-weight: bold;
+}
+
+.voucher-input-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.voucher-input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.voucher-button {
+  padding: 0.5rem 1rem;
+  background-color: #b99430;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.voucher-button:hover {
+  background-color: #b99430;
+}
+
+.checkout-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #b99430;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #b99430;
+}
+
+.summary-note {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 1rem;
+}

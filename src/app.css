@@ -1,0 +1,22 @@
+/* src/App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Agar footer selalu di bawah */
+}
+
+.main-content {
+  flex-grow: 1; /* Konten utama akan mengambil ruang yang tersedia */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto; /* Tengah secara horizontal */
+  width: 100%;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+}
